@@ -1,0 +1,219 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: grey;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.btn-danger{
+    background-color: #e50914;
+}
+
+.showcase{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url('wallpaper.jpg') no-repeat center center/cover;
+}
+
+.showcase::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(0,0,0,0.4);
+    box-shadow: 120px 100px 250px black, inset -120px -100px 250px black;
+}
+
+.showcase-top{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.showcase-top > img{
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(40%, -50%);
+}
+
+.showcase-top > button{
+    position: absolute;
+    top: 50%;
+    right: 51px;
+    transform: translate(-60%, -50%);
+    
+}
+
+.showcase-top > a{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-60%, -50%);
+}
+
+.showcase-content{
+    position: relative;
+    margin: 0 20%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.showcase-content > h1{
+    font-weight: 600;
+    font-size: 60px;
+    max-width: 800px;
+}
+
+.showcase-content > h4{
+    line-height: 50px;
+}
+
+.screen1{
+    height: 500px;
+    margin-top: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+
+.screen3{
+    background-color: black;
+    height: 200px;
+    width: 500px;
+    margin-left: 10px;
+    float: left;   
+    margin-top: 5%; 
+}
+
+.screen2{
+    background-color: black;
+    height: 300px;
+    width: 500px;
+    margin-left: 20px;
+    float: left;   
+}
+
+.screen3 > h1{
+    font-size: 50px;
+    z-index: 2;
+}
+
+.screen4{
+    background-color: black;
+    height: 250px;
+    width: 500px;
+    margin-left: 20px;
+    float: left; 
+    margin-top: 3%; 
+}
+
+.screen4 > h1{
+    font-size: 50px;
+    z-index: 2;
+}
+
+.mobile > img{
+    width: 300px;
+    height : 200px;
+    margin-left: 90px;
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    height: 57%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: 0;
+}
+
+.screen2 > img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.faq{
+    height: 700px;
+    background-color: black;
+    margin-top: 15px;
+    padding : 10% 10% 10% 10% !important;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+ul{
+    margin: 50px 10px 10px 200px;
+}
+
+li{
+    width: 600px;
+    height: 50px;
+    font-size: larger;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(49, 49, 49);
+    margin: 4px 4px 4px 4px;
+    text-align: left;
+    list-style: none;
+}
+
+option{
+    height: 200px !important;
+    width: 100px !important;
+    background-color: rgb(49, 49, 49);
+}
+
+select{
+    width: 550px;
+    background-color: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.faq > a{
+    margin-top: 40px;
+}
+
+.trailer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url('wallpaper.jpg') no-repeat center center/cover;
+}
+
+
+

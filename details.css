@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(34, 33, 33);
+    color: white;
+}
+
+
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.btn-danger{
+    background-color: #e50914;
+}
+
+.trailer{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background: url('bombay-begums.jpg') no-repeat center center/cover;
+}
+
+.trailer::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(0,0,0,0.4);
+    box-shadow: 120px 100px 250px black, inset -120px -100px 250px black;
+}
+
+.trailer-top{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.trailer-top > img{
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(40%, -50%);
+}
+
+.trailer-content > .btn-danger{
+    width: 150px;
+}
+
+.trailer-top > .account{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-60%, -50%);
+    width: 30px;
+    height: 30px;    
+}
+
+.trailer-top > a{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-60%, -50%);
+}
+
+.trailer-content{
+    position: relative;
+    margin: 23% 0 0 5%;
+    z-index: 2;
+}
+
+.trailer-content > h1{
+    font-weight: 600;
+    font-size: 60px;
+    max-width: 800px;
+}
+
+.actions{
+    height: 50px;
+    width: 80%;
+    margin: 1% 10% 1% 10%;
+}
+
+.details{
+    height: 200px;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+}
+
+.details > h4{
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+.actions > img{
+    width: 40px;
+    height: 40px;
+}
